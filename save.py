@@ -5,3 +5,6 @@ data = {
     "Age": [23, 24, 25],
     "City": ["Kurrnool", "Nandyla", "Hyderabad"]
 }
+
+df = pd.DataFrame(data)
+print(df)
