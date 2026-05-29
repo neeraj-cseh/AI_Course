@@ -8,3 +8,4 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+df.to_json("output.json", index=False)
